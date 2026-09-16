@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Challenge 2027</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Fitness Challenge 2027</h1>
+      <p class="subtitle">Nå dina hälsomål med våra strukturerade träningsprogram.</p>
+    </header>
+
+    <!-- Förbättrat: Beskrivande alt-text -->
+    <img class="hero-img" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1000&q=80" alt="Person som tränar på ett gym med skivstång">
+
+    <!-- Sektion 1: Flikar -->
+    <section class="program-section">
+      <div class="tab-buttons">
+        <button id="tab30" class="tab-btn active">30-Dagars Program</button>
+        <button id="tab60" class="tab-btn">60-Dagars Program</button>
+      </div>
+
+      <div id="content30" class="tab-content active">
+        <h3>30-Dagars Intensitetsutmaning</h3>
+        <p class="program-text">Perfekt för nybörjare. Innehåller 4 pass per vecka med fokus på grundläggande styrka och kondition.</p>
+      </div>
+
+      <div id="content60" class="tab-content">
+        <h3>60-Dagars Avancerad Utmaning</h3>
+        <p class="program-text">För dig som vill ta det till nästa nivå. 6 pass per vecka med hög intensitet och personlig kostplan.</p>
+      </div>
+    </section>
+
+    <!-- Sektion 2: Sökfält (Förbättrat: Lagt till label för tillgänglighet) -->
+    <section class="search-section">
+      <h2>Sök Deltagare eller Lag</h2>
+      <label for="searchInput" class="search-label">Ange namn på deltagare eller lag:</label>
+      <input type="text" id="searchInput" class="search-input" placeholder="Skriv ett namn eller lag...">
+      <div id="searchFeedback" class="search-feedback"></div>
+    </section>
+
+    <footer>
+      <p>© 2027 Fitness Challenge. Alla rättigheter förbehållna.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
